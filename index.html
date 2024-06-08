@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Stopwatch</title>
+</head>
+
+<body>
+    <h1 id="header">StopWatch</h1>
+    <div class="container">
+        <div class="Time">
+            <span class="digit" id="hr">00</span>
+            <span class="txt">hr</span>
+            <span class="digit" id="min">00</span>
+            <span class="txt">min</span>
+            <span class="digit" id="sec">00</span>
+            <span class="txt">sec</span>
+            <span class="digit" id="count">00</span>
+            <span class="txt">count</span>
+
+        </div>
+        <div class="buttons">
+
+            <button class="btn" id="start"><ion-icon name="play-outline"></ion-icon></button>
+            <button class="btn" id="stop"><ion-icon name="pause-outline"></ion-icon></button>
+            <button class="btn" id="reset"><ion-icon name="refresh-outline"></ion-icon></button>
+            <button class="btn" id="Record"><ion-icon name="time-outline"></ion-icon></button>
+
+        </div>
+        <div class="display" >
+            <h1>Time Laps</h1>
+            <ul id="display">
+                
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
